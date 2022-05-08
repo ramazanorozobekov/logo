@@ -1,0 +1,635 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+
+}
+
+@media (max-width: 1140px) {
+    .container {
+        width: 1140px;
+    }
+
+    .hero__title {
+        width: 500px;
+    }
+
+    .hero__subtitle {
+        width: 425px;
+    }
+
+    .dish {
+        width: 300px;
+        height: 325px;
+    }
+
+    .plate {
+        width: 300px;
+        height: 200px;
+    }
+
+    .girl {
+        width: 300px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15%;
+    }
+
+    .hero__title {
+        width: 400px;
+    }
+
+    .hero__subtitle {
+        width: 320px;
+    }
+
+    .dish {
+        width: 280px;
+        height: 225px;
+    }
+
+    .plate {
+        width: 250px;
+        height: 200px;
+        margin-left: -180px;
+    }
+
+    .girl {
+        width: 300px;
+        height: 220px;
+        margin-left: -400px;
+    }
+    .small__images{
+        width: 180px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 90%;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15%;
+    }
+
+    .hero__title {
+        width: 400px;
+    }
+
+    .hero__subtitle {
+        width: 320px;
+    }
+
+    .dish {
+        width: 280px;
+        height: 225px;
+    }
+
+    .plate {
+        width: 250px;
+        height: 200px;
+        margin-left: -180px;
+    }
+
+    .girl {
+        width: 300px;
+        height: 220px;
+        margin-left: -400px;
+    }
+    .small__images{
+        width: 175px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 20%;
+        gap: 0;
+        flex-direction: column;
+        background: #262626;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 7;
+    }
+
+    .nav-link {
+        transition: 0.3s;
+        font-weight: 500;
+        font-size: 17px;
+        color: #fff;
+    }
+
+    .nav-link:hover {
+        color: #D97116;
+        border: 2px green solid;
+    }
+
+    .nav-link:active {
+        color: red;
+    }
+
+    .nav-btn {
+        padding: 12px 24px;
+        font-weight: 500;
+        font-size: 17px;
+        color: #FFFFFF;
+        background: #E67E22;
+        border-radius: 8px;
+    }
+
+    .nav-btn:hover {
+        background: #D97116;
+    }
+
+    .nav-btn:active {
+        background: rgba(230, 126, 34, 0.5);
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 15%;
+    }
+
+    .hero__title {
+        width: 550px;
+    }
+
+    .hero__subtitle {
+        width: 550px;
+    }
+
+    .hero__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100px;
+    }
+
+    .pictures {
+        margin-bottom: 50px;
+    }
+
+    .dish {
+        width: 350px;
+        height: 375px;
+    }
+
+    .plate {
+        width: 300px;
+        height: 220px;
+        margin-left: -210px;
+    }
+
+    .girl {
+        width: 370px;
+        height: 220px;
+        margin-left: -420px;
+    }
+    .small__images{
+        width: 135px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-link {
+        transition: 0.3s;
+        font-weight: 500;
+        font-size: 17px;
+        color: #fff;
+    }
+
+    .nav-link:hover {
+        color: #D97116;
+        border: 2px green solid;
+    }
+
+    .nav-link:active {
+        color: red;
+    }
+
+    .nav-btn {
+        padding: 12px 24px;
+        font-weight: 500;
+        font-size: 17px;
+        color: #FFFFFF;
+        background: #E67E22;
+        border-radius: 8px;
+    }
+
+    .nav-btn:hover {
+        background: #D97116;
+    }
+
+    .nav-btn:active {
+        background: rgba(230, 126, 34, 0.5);
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 25%;
+    }
+
+    .hero__title {
+        width: 400px;
+        margin-left: 45px;
+    }
+
+    .hero__subtitle {
+        width: 350px;
+        margin-left: 45px;
+
+    }
+
+    .hero__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100px;
+    }
+
+    .pictures {
+        margin-bottom: 50px;
+    }
+
+    .dish {
+        width: 350px;
+        height: 375px;
+    }
+
+    .plate {
+        width: 300px;
+        height: 220px;
+        margin-left: -210px;
+    }
+
+    .girl {
+        width: 370px;
+        height: 220px;
+        margin-left: -420px;
+    }
+
+    .photo {
+        margin-left: 35px;
+    }
+    .small__images{
+        width: 105px;
+    }
+}
+
+
+@media (max-width: 416px) {
+
+    .nav-link {
+        transition: 0.3s;
+        font-weight: 500;
+        font-size: 17px;
+        color: #fff;
+    }
+
+    .nav-link:hover {
+        color: #D97116;
+        border: 2px green solid;
+    }
+
+    .nav-link:active {
+        color: red;
+    }
+
+    .nav-btn {
+        padding: 12px 24px;
+        font-weight: 500;
+        font-size: 17px;
+        color: #FFFFFF;
+        background: #E67E22;
+        border-radius: 8px;
+    }
+
+    .nav-btn:hover {
+        background: #D97116;
+    }
+
+    .nav-btn:active {
+        background: rgba(230, 126, 34, 0.5);
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30%;
+    }
+
+    .hero__title {
+        text-align: center;
+        width: 350px;
+        font-weight: 600;
+        font-size: 48px;
+        color: #333333;
+        margin-bottom: 32px;
+        margin-left: -5px;
+    }
+
+    .hero__subtitle {
+        width: 350px;
+        margin-left: -10px;
+        text-align: center;
+
+    }
+
+    .hero__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -5px;
+
+    }
+
+    .pictures {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
+        margin-bottom: 20px;
+    }
+
+    .dish {
+        width: 250px;
+        height: 275px;
+    }
+
+    .plate {
+        width: 200px;
+        height: 170px;
+        margin-left: -150px;
+    }
+
+    .girl {
+        width: 270px;
+        height: 150px;
+        margin-left: -300px;
+    }
+
+    .photo {
+        margin-left: 35px;
+    }
+    .small__pictures{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .small__images{
+        width: 110px;
+    }
+}
+
+
+@media (max-width: 376px) {
+    .nav-link {
+        transition: 0.3s;
+        font-weight: 500;
+        font-size: 17px;
+        color: #fff;
+    }
+
+    .nav-link:hover {
+        color: #D97116;
+        border: 2px green solid;
+    }
+
+    .nav-link:active {
+        color: red;
+    }
+
+    .nav-btn {
+        padding: 12px 24px;
+        font-weight: 500;
+        font-size: 17px;
+        color: #FFFFFF;
+        background: #E67E22;
+        border-radius: 8px;
+    }
+
+    .nav-btn:hover {
+        background: #D97116;
+    }
+
+    .nav-btn:active {
+        background: rgba(230, 126, 34, 0.5);
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero__title {
+        text-align: center;
+        width: 340px;
+        font-weight: 600;
+        font-size: 48px;
+        color: #333333;
+        margin-bottom: 32px;
+        margin-left: -5px;
+    }
+
+    .hero__subtitle {
+        width: 305px;
+        margin-left: 15px;
+        text-align: center;
+
+    }
+
+    .hero__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -5px;
+
+    }
+
+    .pictures {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
+        margin-bottom: 20px;
+    }
+
+    .dish {
+        width: 240px;
+        height: 275px;
+    }
+
+    .plate {
+        width: 200px;
+        height: 160px;
+        margin-left: -165px;
+    }
+
+    .girl {
+        width: 250px;
+        height: 120px;
+        margin-left: -280px;
+    }
+
+    .photo {
+        margin-left: 35px;
+    }
+
+    .small__images{
+        width: 100px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .right__button {
+        padding: 12px 20px;
+        margin-bottom: 10px;
+    }
+
+    .left__button {
+
+        margin-left: 5px;
+    }
+    .hero{
+        margin-top: 40%;
+    }
+    .hero__title {
+        text-align: center;
+        width: 240px;
+        font-weight: 500;
+        font-size: 48px;
+        color: #333333;
+        margin-bottom: 32px;
+        margin-left: 10px;
+    }
+
+    .hero__subtitle {
+        width: 250px;
+        margin-left: 15px;
+        text-align: center;
+
+    }
+
+    .hero__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -5px;
+        flex-wrap: wrap;
+
+    }
+    .pictures {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
+        margin-bottom: 20px;
+    }
+
+    .dish {
+        width: 200px;
+        height: 235px;
+    }
+
+    .plate {
+        width: 200px;
+        height: 150px;
+        margin-left: -165px;
+    }
+
+    .girl {
+        width: 200px;
+        height: 120px;
+        margin-left: -250px;
+    }
+
+    .photo {
+        margin-left: 35px;
+    }
+}
